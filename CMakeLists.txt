@@ -91,7 +91,8 @@ endif()
 
 #--------------------------------------
 # Find prerequistes for backward
-include(src/vendor/BackwardConfig.cmake)
+# include(src/vendor/BackwardConfig.cmake)
+find_package(Backward)
 
 #============================================================================
 # Add plugins
